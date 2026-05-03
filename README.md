@@ -2,6 +2,12 @@
 
 **Submitted by:** Yash Shukla
 
+## 🌐 Live Demo
+The application is fully deployed and can be tested live here:
+**[View Live Application on Vercel](https://frontend-assessment-gamma-seven.vercel.app/)**
+
+*Note: The backend is hosted on a free Render tier, so the API may take ~50 seconds to "wake up" upon the very first graph submission. Subsequent submissions will be instant.*
+
 This repository contains the complete solution for the VectorShift Technical Assessment, featuring a dynamic, node-based frontend application and a robust backend API for graph validation. 
 
 ## 🌟 Project Overview
@@ -32,6 +38,14 @@ The core objective of this application is to provide an intuitive canvas where u
 - **Frontend:** React, React Flow, CSS3 (Custom Styling)
 - **Backend:** Python, FastAPI, Uvicorn
 - **Development Tools:** Node.js, npm, pip
+
+---
+
+## ☁️ Deployment Strategy
+
+The application has been successfully deployed using modern serverless platforms:
+- **Frontend (Vercel):** The React application is deployed on Vercel, providing global edge caching, high performance, and an automated CI/CD pipeline.
+- **Backend (Render):** The FastAPI Python backend is deployed as a Web Service on Render. It handles all mathematical DAG validation logic computations seamlessly via a public API endpoint.
 
 ---
 
